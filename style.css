@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* ------------------
+    Navigation style 
+    ------------------*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left:228px ;
+    padding-top: 50px;
+    padding-right: 240px;
+}
+nav ul a:hover{
+background-color: gray;
+text-decoration: none;
+align-content: space-around;
+
+}
+.nav-title a:hover{ 
+    background-color: gray;
+}
+nav li{ 
+}
+body{
+    background-color: rgba(255, 144, 14, 0.1);
+    }
+    /*--------------------------------
+       Brand New Group of Architects  
+    ----------------------------------*/
+.title{
+    padding-top: 240;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h6{
+    text-align: center;
+    
+}
+.blog .thumb img{
+width: 1040px;
+height: 700px;
+padding-left: 240px;
+padding-right: 240px;
+top: 577px;
+}
+ .btn{
+    background-color:#FF900E; 
+    color: #FFFFFF;
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    text-align: center;
+    margin-left:675px;
+    margin-bottom:50px ;
+    margin-top:50px;
+    border: none;
+    font-size: 20px;
+ }   
+/* ----------------------
+    Quick section
+---------------------- */
+.blog{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left:301px;
+    margin-right:911px;
+    gap: 24px;
+    border-radius: 8px;
+    height: 342px;  
+    width:342px;
+}
+
+.topic{
+    margin-right:367px;
+}
+.para{
+    margin: right 367px;
+}
+.arch{
+    display: flex;
+}
+
+.engineer{
+    position:absolute;
+    margin-top:3045;
+    padding-top: 3045;
+}
+.features{
+    margin-left: 240px;
+    margin-top: 445px;
+}
+.features-info{
+    margin-left: 240px;
+    margin-top: ;
+}
+
+.subtitle-head{
+    margin-left: 240px;
+
+}
+.subtitle-info{
+    margin-left: 40px;
+    margin-left: 240px;
+}
+.year button{
+    background-color: #FF900E;
+    font-size: 35px;
+    padding-left:1180;
+    border:none;
+    border-radius: 8px;
+    width: 342px;
+    height: 200px;
+    text-align: center;
+    color:#FFFFFF
+}
+
+.company1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 8px;
+}
+.award{
+  text-align: center;
+  font-size: 54;
+  border:1px solid #FF900E;
+  width: 241.83px;
+  height: 241.83px;
+}
+.activity{
+    display: flex;
+    border-radius: 8px;
+    width: 241.83px;
+    height: 241.83px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+
+.projects{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 241.83px;
+    height: 241.83px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+.finished{
+    font-size: 20px;
+    color: #727272;
+}
+/* --------------
+    sponsor  
+  --------------- */
+  .sponsor{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .company{
+    display: flex;
+    list-style: none;
+   justify-content: space-around;
+  }
+  .copyright{
+    text-align: center;
+    align-items: center;
+    border:1px solid#727272;
+    height: 45px;
+    width: 500px;
+    margin-left: 540px;
+  }
